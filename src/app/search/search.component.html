@@ -1,0 +1,12 @@
+<header>
+  <img alt = "company logo" id="logo-img" src="../assets/images/Logo.png" />
+  <span class="header-heading">Stock Prediction Application</span>
+  <img alt = "profile picture" class="user-img" src="../assets/images/user-image.jpg" />
+  <span class="hello-user">Hello, John</span>
+</header>
+<article >
+  <div class=" left-rounding "></div>
+  <input type="text" class="search-area" #searchValue value="" name="" />
+  <button class="search-button" (click) =" this.predictorService.getGraph(searchValue.value)"><span>Search</span></button>
+  <div class=" right-rounding " ></div>
+</article>

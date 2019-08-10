@@ -1,0 +1,21 @@
+.lastSearched{
+    color: #ffffff;
+    padding:50px 0px 10px 50px;
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+}
+.lastSearched-items{
+    margin: 20px 0px 0px 30px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 1%;
+    background-color: #353F61;
+    font-size: 22px;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+.search-small{
+    font-size: 12px;
+}

@@ -1,0 +1,14 @@
+<div>
+        <span class = "lastSearched">Search History</span>
+        <span *ngFor="let stock of this.predictorService.lastSearched">
+            <a href="https://www.w3schools.com"><div class = "lastSearched-items">{{stock.name}} &nbsp;&nbsp;&nbsp;
+                <span *ngFor="let day of this.predictorService.days">
+                    {{day}}&nbsp;&nbsp;&nbsp;
+                </span><br>
+                <span class = "search-small">{{stock.symbol}}</span>
+                <span *ngFor="let price of this.predictorService.getStockIndex('INFY')" [style.color]="price.color" >
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{price.y}}
+                    </span>
+            </div></a>
+        </span>
+</div>
