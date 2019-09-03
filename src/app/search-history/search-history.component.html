@@ -7,7 +7,7 @@
                 </span><br>
                 <span class = "search-small">{{stock.symbol}}</span>
                 <span *ngFor="let price of this.predictorService.getStockIndex('INFY')" [style.color]="price.color" >
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{price.y}}
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{price.y}}
                     </span>
             </div></a>
         </span>

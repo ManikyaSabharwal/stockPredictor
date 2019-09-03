@@ -10,7 +10,7 @@ import * as CanvasJS from './canvasjs.min';
 export class PredictorService {
   private stocks: Stock[] = STOCKS;
   private lastSearched: Stock[] = [];
-  private days: string[] =["\t\tMon\t\t", "\t\tTues\t\t", "\t\tWed\t\t", "\t\tThurs\t\t", "\t\tFri\t\t", "\t\tSat\t\t", "\t\tSun"];
+  private days: string[] =["\t\tMon\t\t", "\t\tTue\t\t", "\t\tWed\t\t", "\t\tThu\t\t", "\t\tFri\t\t", "\t\tSat\t\t", "\t\tSun"];
   constructor() { }
 
   getGraph(symbol:any) {
